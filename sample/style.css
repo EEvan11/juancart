@@ -1,0 +1,1168 @@
+body{
+    margin: 0px auto 0px auto;
+}
+
+/* top nav */
+
+.topNav{
+    height: 55px;
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+}
+
+.topNav.scrolling{
+    background-color: rgb(245, 245, 245);
+    height: 55px;
+    transition: .5s;
+}
+
+.topNav.scrolling .hna{
+    color: rgb(9, 68, 38);
+}
+
+.topNav.scrolling .icn{
+    color: rgb(9, 68, 38);
+}
+
+.topNav.scrolling .logo{
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+}
+
+.topNav.scrolling .l1{
+    color: rgb(68, 66, 66);
+}
+
+.topNav.scrolling .l2{
+    color: rgb(68, 66, 66);
+}
+
+.HB{
+    float: right;
+    margin-right: 100px;
+    margin-top: -35px;
+    width: 900px;
+    height: 32px;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: -5px 0px 50px 90px;
+}
+
+.KBNLogo{
+    width: 100px;
+    height: 50px;
+    margin: auto auto auto 140px;
+}
+
+.l1{
+    font-size: 35px;
+    margin: -5px auto 30px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(68, 66, 66);
+}
+
+.l2{
+    font-size: 5px;
+    margin: -30px auto auto auto;
+    font-family: Arial, sans-serif;
+    color: rgb(68, 66, 66);
+}
+
+.hna{
+    text-decoration: none;
+    color: rgb(9, 68, 38);
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.hna:hover{
+    color: rgb(6, 190, 144) ;
+}
+
+.icn{
+    float: right;
+    padding: 10px;
+    padding-top: 1px;
+    color: rgb(9, 68, 38);
+    cursor: pointer;
+}
+
+.icn:hover{
+    color: rgb(6, 190, 144) ;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+/* top nav end */
+
+/* about us */
+
+#aboutUs{
+    display: none;
+    min-width: 160px;
+    background-color: #fcfcfc;
+    margin: 50px 0px auto 590px;
+    position: fixed;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#aboutUs :hover{
+    color: rgb(6, 131, 89);
+}
+
+.abtcon{
+    text-decoration: none;
+    color: rgb(9, 68, 38);
+    font-size: 20px;
+    
+}
+
+/* product dropdown */
+
+#productDropdown{
+    display: none;
+    width: 300px;
+    background-color: #fcfcfc;
+    margin: 50px 0px auto 670px;
+    position: fixed;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#productDropdown :hover{
+    color: rgb(6, 131, 89);
+}
+
+.category{
+    text-decoration: none;
+    color: rgb(9, 68, 38);
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px 40px 50px 0px;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+/* cart button */
+
+#cartContent{
+    height: 800px;
+    width: 500px;
+    margin-left: 923px;
+    position: fixed;
+    background-color: rgb(146, 231, 203);
+    display: none;
+}
+
+.cartT{
+    font-size: 40px;
+    margin: 15px auto auto 20px;
+    color: rgb(9, 68, 38);
+}
+
+.cartTitle{
+    border-bottom: 2px solid white;
+    height: 70px;
+    width: 450px;
+    margin: auto auto auto 25px;
+}
+
+.close{
+    float: right;
+    margin: 15px 20px auto auto;
+    color: rgb(9, 68, 38);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.close:hover{
+    color: white;
+}
+
+.cartInfo{
+    margin: 20px auto auto 30px;
+}
+
+.cartItem{
+    width: 500px;
+    height: auto;
+    margin: 2px 10px auto 10px;
+}
+
+.itemPicture{
+    height: 120px;
+    width: 130px;
+    background-color: #fcfcfc;
+}
+
+.itemName{
+    margin: -100px auto auto 150px;
+    font-size: 22px;
+}
+
+.icnQuantity{
+    cursor: pointer;
+}
+
+.icnQuantity:hover{
+    color: #fcfcfc;
+}
+
+.itemQuantity{
+    margin: 40px auto auto 150px;
+}
+
+.quantityNo{
+    width: 30px;
+}
+
+/* cart button end */
+
+/* log in */
+
+#logInCon{
+    margin-left: 923px;
+    height: 800px;
+    width: 500px;
+    position: fixed;
+    background-color: rgb(146, 231, 203);
+    display: none;
+}
+
+.LoginTitle{
+    border-bottom: 2px solid white;
+    height: 70px;
+    width: 450px;
+    margin: 10px auto auto 25px;
+    font-size: 36px;
+    color: rgb(9, 68, 38);
+}
+
+label{
+    float: left;
+    padding-left: 50px;
+    font-size: 15px;
+    color: rgb(9, 68, 38);
+    margin-bottom: 10px;
+}
+
+.loginInput{
+    width: 340px;
+    height: 10px;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid rgb(9, 68, 38);
+    padding-top: 20px;
+    margin: 0px auto 20px 65px;
+    background-color: rgb(167, 175, 172);
+}
+
+button{
+    background-color: rgb(9, 68, 38);
+    font-size: 20px; 
+    width: 360px;
+    height: 40px;
+    margin: 20px auto auto 65px;
+    color: #fcfcfc;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:rgb(6, 190, 144);
+}
+
+.closeLogIn{
+    float: right;
+    margin: 15px 20px auto auto;
+    color: rgb(9, 68, 38);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.closeLogIn:hover{
+    color: white;
+}
+
+/* log in end*/
+
+/* User Profile*/
+
+#userProfileCon{
+    margin-left: 923px;
+    height: 800px;
+    width: 500px;
+    position: fixed;
+    background-color: rgb(146, 231, 203);
+    display: none;
+}
+
+.userAccount{
+    border-bottom: 2px solid white;
+    height: 70px;
+    width: 450px;
+    margin: 20px auto auto 25px;
+}
+
+.userIcon{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.userName{
+    margin: -50px auto auto 80px;
+    font-size: 28px;
+}
+
+/* compressed button */
+
+.compressed{
+    float: right;
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: none;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+
+.drpdown_compressed{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+}
+
+/* compressed button end */
+
+/* carousel */
+.content{
+    height: 680px;
+    width: 800px;
+    position: static;
+    left: 0;
+    right: 0;
+    animation: animate 16s ease-in-out infinite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(224, 230, 230);
+    margin: 40px auto 0px auto;
+}
+
+.conGrid-inner{
+    width: 100%;
+    border: 1px solid blue;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.imgSlide1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fAddCart2{
+    border: none;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(147, 175, 165);
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 400;
+    float: right;
+    margin: -180px 140px auto auto;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fAddCart2:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.fAddCart3{
+    border: none;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(147, 175, 165);
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 400;
+    float: left;
+    margin: -260px auto auto 150px;
+    position: relative;
+}
+
+.fAddCart3:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+/* carousel end */
+
+
+#oShop{
+    text-align: center;
+    height: 250px;
+    padding-bottom: 700px;
+}
+
+.shop{
+    height: 150px;
+    width: 890px;
+    margin: 50px auto 0px auto;
+}
+
+h1{
+    padding-bottom: 50px;
+    font-size: 40px;
+    width: 900px;
+}
+
+h2{
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(9, 68, 38);
+}
+
+p{
+    font-size: 20px;
+}
+
+.conGrid{
+    margin: 0px 0px 200px 10px;
+}
+
+.products{
+    border-bottom: 2px solid black;
+    height: 80px;
+    width: 270px;
+    margin: 0px auto 80px auto;
+    padding-left: 40px;
+}
+
+.fsoap{
+    height: 500px;
+    width: auto;
+    margin: -130px 0px auto -130px;
+}
+
+.LblSoap{
+    color: rgb(9, 68, 38);
+    font-size: 22px;
+    margin-top: -80px;
+}
+
+.fllotion{
+    height: 300px;
+    width: auto;
+    margin: -45px 0px auto 2px;
+}
+
+.Lbllotion{
+    color: rgb(9, 68, 38);
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.frejuv{
+    height: 500px;
+    width: auto;
+    margin: -140px 0px auto -220px;
+}
+
+.Lblrejuv{
+    color: rgb(9, 68, 38);
+    font-size: 22px;
+    margin-top: -70px;
+}
+
+.fglowskin{
+    height: 350px;
+    width: auto;
+    margin: -100px 0px auto -140px;
+}
+
+.Lblglowskin{
+    color: rgb(9, 68, 38);
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.falcohol{
+    height: 300px;
+    width: auto;
+    margin: -15px 0px auto auto;
+}
+
+.Lblalcohol{
+    color: rgb(9, 68, 38);
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.gridCon {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    padding-left: 100px;
+    margin-bottom: 70px;
+  }
+
+  .gridCon2 {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    padding-left: 250px;
+  }
+  
+  .grid-item {
+    height: 250px;
+    width: 250px;
+    box-shadow: 1px 3px 20px 5px #ada1a1;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .grid-item:hover{
+    transition: .5s;
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+
+/* footer */
+
+.footer{
+    border-top: 1px solid rgb(151, 145, 145);
+    padding-top: 70px;
+    border-bottom: 1px solid rgb(151, 145, 145);
+    height: 450px;
+}
+
+.col1{
+    float: left;
+    margin-left: 15px;
+    height: 400px;
+    width: 420px;
+}
+
+.logof{
+    height: 260px;
+    width: 320px;
+    margin: 0px 0px 0px 40px;
+}
+
+.location{
+    margin-top: -20px;
+}
+
+.loc{
+    float: right;
+    margin: 3px 119px 0px 0px;
+    font-size: 15px;
+    color: rgb(70, 67, 67);
+}
+
+.telephone{
+    margin-top: 30px;
+}
+
+.tel{
+    float: right;
+    margin: 3px 237px 0px 0px;
+    font-size: 15px;
+    color: rgb(70, 67, 67);
+}
+
+.email{
+    margin-top: 60px;
+}
+
+.mail{
+    float: right;
+    margin: 3px 90px 0px 0px;
+    font-size: 15px;
+    color: rgb(70, 67, 67);
+}
+
+.locIcn, .telIcn, .emailIcn{
+    float: left;
+    margin: 3px 0px 0px 80px;
+    font-size: 15px;
+    color: rgb(70, 67, 67);
+}
+
+.col2{
+    float: left;
+    margin-left: 1px;
+    height: 400px;
+    width: 300px;
+}
+
+.col3{
+    float: left;
+    margin-left: 1px;
+    height: 400px;
+    width: 300px;
+}
+
+.col4{
+    float: left;
+    margin-left: 1px;
+    height: 400px;
+    width: 300px;
+}
+
+.fTitle{
+    padding-bottom: 20px;
+}
+
+.fContent{
+    font-size: 15px;
+    color: rgb(70, 67, 67);
+}
+
+.cp{
+    margin-left: 50px;
+    font-size: 13px;
+    color: rgb(70, 67, 67);
+}
+
+/* footer end */
+
+/* log in */
+
+.log{
+    height: 600px;
+    width: 1349px;
+}
+
+.LoginTitle{
+    color:  rgb(9, 68, 38);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+label{
+    float: left;
+    padding-left: 50px;
+    font-size: 15px;
+    color: rgb(9, 68, 38);
+}
+
+input{
+    width: 340px;
+    height: 10px;
+    padding: 8px 10px;
+    border: none;
+    border-bottom: 2px solid rgb(9, 68, 38);
+    padding-top: 20px;
+    margin: 0px auto 20px 65px;
+}
+
+button{
+    background-color: rgb(9, 68, 38);
+    font-size: 20px; 
+    width: 360px;
+    height: 40px;
+    margin: 20px auto auto 65px;
+    color: #fcfcfc;
+}
+
+button:hover{
+    background-color:rgb(6, 190, 144);
+}
+
+.logInCon{
+    height: 500px;
+    width: 500px;
+    margin: -500px auto 80px 450px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 25px 5px #524a4a;
+    position: static;
+    border-radius: 10px;
+}
+
+/* log in end */
+
+/* application */
+
+.applicationTitle{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(9, 68, 38);
+    margin-bottom: 100px;
+}
+
+.cusInfo{
+    position: static;
+    padding: 20px 50px 20px 50px;
+}
+
+.grind1{
+    padding-bottom: 50px;
+}
+
+.mi{
+    width: 80px;
+    border: 2px solid rgb(9, 68, 38);
+    border-radius: 5px;
+}
+
+#inpadd{
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid rgb(9, 68, 38);
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.add{
+    margin: 0px auto 20px 165px;
+}
+
+.zipc{
+    border: 2px solid rgb(9, 68, 38);
+    border-radius: 5px;
+    width: 80px;
+}
+
+.appbtn{
+    width: 100px;
+    margin-left: 600px
+}
+
+.appInp{
+    border: 2px solid rgb(9, 68, 38);
+    border-radius: 5px;
+}
+
+.address2{
+    margin-left: 185px;
+    width: 772px;
+    border: 2px solid rgb(9, 68, 38);
+    border-radius: 5px;
+}
+
+.prodes{
+    border: 2px solid rgb(9, 68, 38);
+    border-radius: 5px;
+    height: 50px;
+    width: 772px;
+}
+
+.applicationlbl{
+    margin-left: 20px;
+    width: 50px;
+}
+
+.fphoto{
+    height: 600px;
+    width: 1200px;
+    margin: -500px 0px auto 110px;
+}
+
+/* about */
+.abtContent{
+    margin-top: -530px;
+}
+
+.imgM{
+    background-image: url(manuf.jpg);
+    height: 400px;
+}
+
+.rTi{
+    margin: 20px auto auto 0px;
+    font-size: 30px;
+    color: rgb(9, 68, 38);
+}
+
+.rTinfo{
+    margin: 20px auto auto 40px;
+    font-size: 22px;
+}
+
+.dropdownCon{
+    margin: 0px 40px auto 80px;
+    color: rgb(68, 66, 66);
+    width: 500px;
+    float: right;
+    margin: 20px 200px auto auto;
+}
+
+.dropdownCon2{
+    margin: 0px 40px auto 80px;
+    color: rgb(68, 66, 66);
+    width: 500px;
+    float: left;
+    margin: 20px auto auto 200px;
+}
+
+.img1{
+    height: 300px;
+    width: auto;
+    margin: 2px 0px auto 200px;
+}
+
+.img2{
+    height: 300px;
+    width: auto;
+    margin: 2px auto auto 50px;
+}
+
+.img3{
+    height: 300px;
+    width: 450px;
+    margin: 2px auto auto 200px;
+}
+
+.dropdown{
+    margin-top: 70px;
+}
+
+.reasons{
+    margin-top: 50px;
+}
+
+/*KBN products*/
+.productCon{
+    margin: -520px 50px 50px 50px;
+    height: auto;
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.productCon2{
+    margin: 100px 50px 50px 50px;
+    height: auto;
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.productCon3{
+    margin: 100px 50px 50px 50px;
+    height: auto;
+    display: grid;
+    column-gap: -90px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.gridProduct{
+    width: 300px;
+    height: auto;
+    
+}
+
+.productImgCon{
+    background-color: rgb(224, 230, 230);
+    width: 300px;
+    height: 350px;
+}
+
+.productLbl{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    float: left;
+    font-weight: bold;
+    color: rgb(6, 56, 30);
+}
+
+.weight{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -130px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.price{
+    float: right;
+    margin-right: 5px;
+    font-weight: bold;
+    color: rgb(6, 56, 30);
+}
+
+.addCart{
+    width: 300px;
+    margin: 0px auto auto auto;
+    border: none;
+    background-color: rgb(147, 175, 165);
+    font-size: 18px;
+}
+
+/*soap*/
+
+.ageEsaserS{
+    height: 500px;
+    width: auto;
+    margin: -80px -50px -50px -105px;
+}
+
+.weightKo{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -190px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightBle{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -120px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.productLblRev{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    float: left;
+    font-weight: bold;
+    color: rgb(6, 56, 30);
+}
+
+.weightRev{
+    font-size: 15px;
+    margin-top: 45px;
+    margin-left: -225px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+/*Lotion*/
+
+.weightSMWL{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -185px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightGlu{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -140px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.glutaLotion{
+    height: 350px;
+    width: auto;
+    margin: -10px auto auto 25px;
+}
+
+.weightGWL{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -150px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+/*Rejuvinating Soap*/
+
+.rejuvSet{
+    height: 500px;
+    width: auto;
+    margin: -90px auto auto -200px;
+}
+
+.weightSB{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -70px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightBC{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -100px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightTon{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -45px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.priceRaSET{
+    float: right;
+    margin-right: 5px;
+    margin-top: -60px;
+    font-weight: bold;
+    color: rgb(6, 56, 30);
+}
+
+.weightRaSET{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 0px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+/*Glass Skin*/
+
+.radiantSet{
+    height: 350px;
+    width: auto;
+    margin: -50px auto auto -110px;
+}
+
+.weightGelTon{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -75px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightFW{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -90px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightSer{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -50px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightSBl{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -80px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+/*Alcohol*/
+
+.weightEA{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -105px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.weightIA{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -135px;
+    float: left;
+    color: rgb(6, 56, 30);
+}
+
+.isopropylAl{
+    height: 350px;
+    width: auto;
+    margin: 5px auto auto 110px;
+}
+
+
