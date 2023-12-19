@@ -1,0 +1,25 @@
+/* testing */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .left-div,
+  .right-div {
+    flex-grow: 1;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .left-div {
+    background-color: lightblue;
+  }
+
+  .right-div {
+    background-color: lightgray;
+  }
+  .topNavOrder{
+    height: 75px;
+  }
